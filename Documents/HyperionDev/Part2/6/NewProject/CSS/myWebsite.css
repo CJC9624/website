@@ -1,0 +1,97 @@
+body {
+  background-color: darkseagreen;
+}
+
+button{
+  text-align: center;
+  float: center;
+}
+
+header,
+h1,
+h2 {
+  margin-top: 40px;
+  text-align: center;
+}
+
+
+
+form {
+  background-color: seashell;
+  width: 40%;
+  text-align: center;
+  padding: 20px;
+  margin: auto;
+}
+
+table {
+  margin: 20px;
+  
+}
+
+
+tr,
+th,
+td {
+  margin: 20px;
+  border: 2px black solid;
+  padding: 20px;
+  font-weight: bold;
+}
+
+nav {
+  text-align: center;
+  margin: 20px;
+}
+
+nav a {
+  border: 2px black solid;
+  padding: 20px;
+  width: auto;
+  margin: auto;
+  background-color: olivedrab;
+  color: white;
+  font-size: x-large;
+  float: center;
+  text-align: center;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+nav a:active {
+  background-color: green;
+}
+
+nav a:checked {
+  background-color: olive;
+}
+
+table a {
+  border: 2px black solid;
+  padding: 20px;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: olivedrab;
+  color: white;
+  font-size: x-large;
+}
+ol, li,
+.textBlock,
+.quotes {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+}
+
+img {
+  width: 150px;
+  height: auto;
+}
+
+.imagesPage {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

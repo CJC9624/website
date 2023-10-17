@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Contact</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="./CSS/myWebsite.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body id="contact">
+    <nav>
+      <a href="myWebsite.html">Home</a>
+      <a href="myDog.html">My Dog</a>
+      <a href="myPlants.html">My Plants</a>
+      <a href="timeSpent.html">Time Spent</a>
+      <a href="savePage.html">Saved Items</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+<div class="textBlock">
+    <h1>Please contact me here</h1>
+    <form id="contactForm">
+      <label for="email">Email</label><br />
+      <input type="text" id="email" name="email" /><br />
+      <label>Do you want to know more about plants?</label><br />
+      <input type="radio" id="plants" name="plants" value="yes" />
+      <label for="plants">Yes</label><br />
+      <input type="radio" id="plantsNo" name="plantsNo" value="no" />
+      <label for="plantsNo">No</label><br />
+      <input type="submit" onclick="contact()"/>
+    </form>
+    <button id="saveMe" onclick="savePage()">Click to save page</button>
+     </div>
+    <script
+      src="../JS/myWebsite.js"
+      async
+      defer
+    ></script>
+  </body>
+</html>

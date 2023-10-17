@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Home Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="../CSS/myWebsite.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body id="home">
+    <nav>
+      <a href="myWebsite.html">Home</a>
+      <a href="myDog.html">My Dog</a>
+      <a href="myPlants.html">My Plants</a>
+      <a href="timeSpent.html">Time Spent</a>
+      <a href="savePage.html">Saved Items</a>
+      <a href="contact.html">Contact</a>
+      <button class="like">Like</button>
+    </nav>
+    <header>
+      <h1>Welcome to my page</h1>
+      <br />
+      <br />
+    </header>
+
+  <div class="textBlock">
+    <img
+      class="imagesPage"
+      src="https://media4.s-nbcnews.com/i/newscms/2015_32/716466/home-no-fuss-plants-sill-today-150804-tease_8aad0b93c3e2d7b25ab129e8d97c5958.jpg"
+      alt="Sunflower"
+    />
+
+    <p class="textBlock">
+      Plants are the eukaryotes that form the kingdom Plantae; they are
+      predominantly photosynthetic. This means that they obtain their energy
+      from sunlight, using chloroplasts derived from endosymbiosis with
+      cyanobacteria to produce sugars from carbon dioxide and water, using the
+      green pigment chlorophyll. Exceptions are parasitic plants that do not
+      contain chlorophyll, and obtain their energy from other plants.
+    </p>
+    <p class="textBlock">
+      Info taken from the wiki article, for more
+      <a href="https://en.wikipedia.org/wiki/Plant">click here</a>
+    </p>
+    <br/>  <br/>
+    <button id="saveMe" onclick="savePage()">Click to save page</button>
+    <br/>  <br/>
+</div>
+<footer>
+  <form id="commentForm">
+    <label for="name">Name</label><br />
+    <input type="text" id="name" name="name" /><br />
+    <label>Leave a comment</label><br />
+    <input type="text" id="comment" name="comment" /><br />
+    <input type="submit" />
+  </form>
+  <h3>Comments:</h3>
+  <ul id="comments"></ul>
+</footer>
+
+    <script src="../JS/myWebsite.js" async defer></script>
+  </body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Time table</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="../CSS/myWebsite.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body id="time">
+    <nav>
+      <a href="myWebsite.html">Home</a>
+      <a href="myDog.html">My Dog</a>
+      <a href="myPlants.html">My Plants</a>
+      <a href="timeSpent.html">Time Spent</a>
+      <a href="savePage.html">Saved Items</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <main>
+      <div class="textBlock">
+        <h1>Time spent on each activity</h1>
+        <table>
+          <tr>
+            <th>Time Spent per week</th>
+            <th>Favourite Things</th>
+            <th>Picture of the thing</th>
+          </tr>
+          <tr>
+            <td>2hr</td>
+            <td><a href="https://en.wikipedia.org/wiki/plant">Plants</a></td>
+            <td>
+              <img
+                src="https://plantscapers.com/wp-content/uploads/2018/01/umbrella-plant.jpg"
+                alt="A plant"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>1.5hr</td>
+            <td><a href="https://en.wikipedia.org/wiki/Coffee">Coffee</a></td>
+            <td>
+              <img
+                src="https://svasthaayurveda.com/wp-content/uploads/2015/05/cup-of-coffee-and-roasted-beans-on-wood-table-uhd-4k-wallpaper.jpg"
+                alt="A coffee"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>20hr</td>
+            <td><a href="https://en.wikipedia.org/wiki/Dog">Dogs</a></td>
+            <td>
+              <img
+                src="https://images5.alphacoders.com/411/411120.jpg"
+                alt="A dog"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>2hr</td>
+            <td><a href="https://en.wikipedia.org/wiki/book">Books</a></td>
+            <td>
+              <img
+                src="https://abrassard.files.wordpress.com/2011/08/books.jpg"
+                alt="Some Books"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>12hr</td>
+            <td><a href="https://en.wikipedia.org/wiki/code">Coding</a></td>
+            <td>
+              <img
+                src="https://images.squarespace-cdn.com/content/5572e6e3e4b013344d656d71/1495198301730-0DW2AJFZ1JPZ762TCWP4/Computing%2C_programming_and_coding_in_schools.jpg?format=1000w&content-type=image%2Fjpeg"
+                alt="Code"
+              />
+            </td>
+          </tr>
+        </table>
+        <button id="saveMe" onclick="savePage()">Click to save page</button>
+    
+      </div>
+      <br /><br />
+    </main>
+
+    <footer>
+      <form id="commentForm">
+        <label for="name">Name</label><br />
+        <input type="text" id="name" name="name" /><br />
+        <label>Leave a comment</label><br />
+        <input type="text" id="comment" name="comment" /><br />
+        <input type="submit" />
+      </form>
+      <h3>Comments:</h3>
+      <ul id="comments"></ul>
+    </footer>
+
+    <script src="../JS/myWebsite.js" async defer></script>
+    
+  </body>
+</html>
